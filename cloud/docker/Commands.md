@@ -65,4 +65,82 @@ HEALTHCHECK
 ```
 
 
-  
+## RELEVANT KERNEL CONCEPTS
+
+```shell
+Namespaces
+cgroups
+Union filesystem
+OverlayFS
+Copy-on-write
+PID 1
+Signals (SIGTERM, SIGKILL)
+```
+
+## NETWORKING
+
+```shell
+Bridge network
+Host network
+None network
+Overlay network
+Port mapping
+DNS inside Docker
+Container-to-container communication
+```
+
+## VOLUMES
+
+```shell
+Bind mounts
+Named volumes
+Anonymous volumes
+Persistence
+Read-only mounts
+```
+
+## SECURITY
+
+```shell
+Why not run as root
+USER instruction
+Read-only filesystem
+Secrets vs environment variables
+Distroless images
+Image scanning
+```
+
+## IMAGE OPTIMIZATION
+
+```shell
+.dockerignore
+Layer caching
+Build cache
+Slim images
+Alpine vs Debian vs Ubuntu
+JDK vs JRE
+Distroless images
+```
+## DOCKER COMPOSE
+
+```shell
+Multiple services
+Networks
+Environment variables
+Volumes
+Dependency ordering
+```
+
+## k8s INTEGRATION
+
+```shell
+Image → Pod
+Container → Pod
+Restart policy
+Liveness probe
+Readiness probe
+ConfigMap
+Secret
+Persistent Volume
+```
+
