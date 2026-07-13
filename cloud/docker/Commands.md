@@ -29,5 +29,40 @@ Ex: docker run -it nginx:1.1.13 /bin/bash
 - docker rmi <image-id>
    Removes the provided image.
 
+## COMMANDS
+
+```shell
+docker ps
+docker ps -a
+docker logs
+docker inspect
+docker exec
+docker stats
+docker images
+docker history
+docker top
+docker events
+docker system df
+docker system prune
+```
+
+## COMPOSE INSTRUCTIONS
+
+```shell
+FROM
+RUN
+COPY
+ADD
+WORKDIR
+ENV
+ARG
+EXPOSE
+ENTRYPOINT
+CMD
+USER
+VOLUME
+HEALTHCHECK
+```
+
 
   
