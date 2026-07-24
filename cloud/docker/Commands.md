@@ -144,3 +144,19 @@ Secret
 Persistent Volume
 ```
 
+
+## CMD VS ENTRYPOINT
+
+
+CMD is a default instruction for docker and if we provide any other instruction during container run time it will execute that instead of specified in CMD.
+
+ENTRYPOINT is always executed irespective of command line and whatever we pass from the runtime command line it will get appended in addition to the entypoint instruction.
+
+ENTRYPOINT is always executed irrespective of the the runtime passed arguments whereas CMD is executed and is not always executed as entrypoint any command passed along with run command will always override the CMD
+
+
+
+## DISTORTIONLESS IMAGES
+
+Minimal docker images that contain only necessary runtime dependencies of applications. Distortionless images exclude the operation system, shell utilities and other binaries. These are smaller and secure images.
+
