@@ -70,3 +70,17 @@ Recommended after Docker:
 - From Local to Production: A Modern Developer's Journey towards Kubernetes
 - Kubernetes without YAML
 - Duolingo's Kubernetes Leap
+
+
+
+# Advanced Docker Concepts
+
+## `Resource limits`
+
+### CPU and Memory Limits
+
+
+
+## `Restart Policies`
+
+## `Networking`
