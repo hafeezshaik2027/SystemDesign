@@ -1,0 +1,5 @@
+#!/bin/bash
+MONGODB_CONTAINER_NAME="mongodb"
+
+docker stop $MONGODB_CONTAINER_NAME
+docker rm $MONGODB_CONTAINER_NAME
